@@ -5,7 +5,7 @@ import os
 
 # Set up OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")  # Change the environment variable name here
-# openai.api_key = "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"
+openai.api_key = "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"
 
 # Initialize session state variables
 if 'messages' not in st.session_state:
